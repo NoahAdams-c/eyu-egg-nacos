@@ -1,0 +1,51 @@
+{
+  "name": "eyu-egg-nacos",
+  "version": "0.1.0",
+  "description": "",
+  "eggPlugin": {
+    "name": "eyuEggNacos"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "egg": "^3",
+    "egg-bin": "^5",
+    "egg-ci": "^2",
+    "egg-mock": "^5",
+    "eslint": "^8",
+    "eslint-config-egg": "^12"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "app"
+  ],
+  "ci": {
+    "version": "16, 18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahAdams-c/eyu-egg-nacos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NoahAdams-c/eyu-egg-nacos/issues"
+  },
+  "homepage": "https://github.com/NoahAdams-c/eyu-egg-nacos#readme",
+  "author": "cc",
+  "license": "MIT"
+}
