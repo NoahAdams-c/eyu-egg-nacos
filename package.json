@@ -1,6 +1,6 @@
 {
   "name": "eyu-egg-nacos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "eggPlugin": {
     "name": "eyuEggNacos"
@@ -10,7 +10,10 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "nacos": "^2.6.0",
+    "yaml": "^2.5.1"
+  },
   "devDependencies": {
     "egg": "^3",
     "egg-bin": "^5",
